@@ -6,7 +6,7 @@ end
 
 get '/' do
   erb %{
-  "Hello World!"
+    Hello World!
   }
 end
 
