@@ -27,3 +27,7 @@ get '/test' do
     <%= 1+1 %>
   }
 end
+
+get '/test2' do
+  erb :test2
+end
