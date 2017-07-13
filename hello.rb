@@ -5,7 +5,9 @@ template :layout do
 end
 
 get '/' do
+  erb %{
   "Hello World!"
+  }
 end
 
 get '/bye' do
