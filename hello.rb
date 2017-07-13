@@ -21,3 +21,9 @@ get '/hello/*' do |name|
     hello #{name}. how are you?
   }
 end
+
+get '/test' do
+  erb %{
+    abc
+  }
+end
