@@ -24,6 +24,6 @@ end
 
 get '/test' do
   erb %{
-    1+1
+    test
   }
 end
