@@ -11,9 +11,13 @@ get '/' do
 end
 
 get '/bye' do
-  "Good bye"
+  erb %{
+    Good bye
+  }
 end
 
 get '/hello/*' do |name|
-  "hello #{name}. how are you?"
+  erb %{
+    hello #{name}. how are you?
+  }
 end
