@@ -23,5 +23,7 @@ get '/hello/*' do |name|
 end
 
 get '/test' do
-  <%= 1+1 %>
+  erb %{
+    <%= 1+1 %>
+  }
 end
