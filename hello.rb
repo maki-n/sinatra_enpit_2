@@ -1,5 +1,9 @@
 require 'sinatra'
 
+template :layout do
+  "<html><body><h1>Hello World</h1><%= yield %></body></html>"
+end
+
 get '/' do
   "Hello World!"
 end
@@ -10,8 +14,4 @@ end
 
 get '/hello/*' do |name|
   "hello #{name}. how are you?"
-end
-
-template :layout do
-  "<html><body><h1>Hello World</h1><%= yield %></body></html>"
 end
