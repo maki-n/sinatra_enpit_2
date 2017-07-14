@@ -1,6 +1,4 @@
 require 'sinatra'
-require './maki-n'
-require './a1702ti'
 
 template :layout do
   "<html><body><h1>Hello World</h1><%= yield %></body></html>"
