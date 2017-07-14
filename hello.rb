@@ -1,5 +1,5 @@
 require 'sinatra'
-require './maki-n.rb' 
+require './maki-n' 
 
 template :layout do
   "<html><body><h1>Hello World</h1><%= yield %></body></html>"
