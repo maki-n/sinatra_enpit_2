@@ -10,3 +10,6 @@ get '/test' do
 }
 end
 
+get '/test2' do
+  erb :test2
+end 
