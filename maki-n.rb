@@ -1,5 +1,6 @@
 require 'sinatra'
 
-git '/' do
-"maki-n test"
-end
+get '/test/*' do |name|
+  erb %{   hello #{name}. how are you?
+}
+end 
