@@ -7,4 +7,5 @@ get '/test/*' do |name|
 get '/test' do
   erb %{   <%= 1+1 %>
 }
-end 
+end
+
