@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'sinatra'
 require './maki-n.rb'
 #require './a1702ti'
@@ -10,8 +11,9 @@ get '/' do
 erb %{
 <p>グループ０</p>
 <ul>
-<li><a ref="./test0/Taro/>hello Taro</a></li>
-<li><a ref="./test>test1 ( 1 + 1 )</a></li>
-<li><a ref="./test2>test2</a></li>
+<li><a href="./test1>test1</a></li>
+<li><a href="./test2>test2</a></li>
+<li><a href="./test3>test3</a></li>
+</ul>
 }
-#end
+end
