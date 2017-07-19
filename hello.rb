@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 require 'sinatra'
-require './maki-n.rb'
+require './maki-n'
 #require './a1702ti'
 
 template:layout do
@@ -10,10 +10,8 @@ end
 get '/' do
 erb %{
 <p>グループ０</p>
-<ul>
-<li><a href="./test1>test1</a></li>
-<li><a href="./test2>test2</a></li>
-<li><a href="./test3>test3</a></li>
-</ul>
+<p><a href="./test1">test1</a>
+<p><a href="./test2">test2</a>
+<p><a href="./test3">test3</a>
 }
 end

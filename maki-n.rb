@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'sinatra'
 
 get '/test2/*' do |name|
@@ -6,7 +7,7 @@ get '/test2/*' do |name|
 end
   
 get '/test1' do
-  erb %{1+1=   <%= 1+1 %>
+  erb %{'1+1='  <%= 1+1 %>
 }
 end
 
