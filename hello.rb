@@ -10,9 +10,12 @@ end
 git '/' do
 erb %{
 <p>グループ０</p>
-<ul>
-<li><a ref="./test0/Taro/>hello Taro</a></li>
-<li><a ref="./test>test1 ( 1 + 1 )</a></li>
-<li><a ref="./test2>test2</a></li>
 }
 end
+
+#<ul>
+##<li><a ref="./test0/Taro/>hello Taro</a></li>
+#<li><a ref="./test>test1 ( 1 + 1 )</a></li>
+#<li><a ref="./test2>test2</a></li>
+#}
+#end
