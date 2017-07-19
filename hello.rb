@@ -6,7 +6,7 @@ template:layout do
 "<html><body><h1>グループ０</h1><%= yield %></body></html>"
 end
 
-git '/' do
+get '/' do
 erb %{
 <p>グループ０</p>
 }
