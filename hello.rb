@@ -1,7 +1,6 @@
-# -*- coding: undecided -*-
 require 'sinatra'
 require './maki-n.rb'
-require './a1702ti'
+#require './a1702ti'
 
 template:layout do
 "<html><body><h1>グループ０</h1><%= yield %></body></html>"
