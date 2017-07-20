@@ -14,11 +14,11 @@ get '/test1-2/*' do |name|
 end
   
 get '/test1-1' do
-  @a=1
+  @a = 1
   erb %{
 1+1= <%= 1+1 %><br>
 1+2= <%= 1+2 %><br>
-#{a}<br>
+<br>
 }
 end
 
