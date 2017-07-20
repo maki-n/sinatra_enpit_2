@@ -21,5 +21,5 @@ get '/test1-1' do
 end
 
 get '/test1-3' do
-  erb :test1-3
+  erb :test2
 end 
