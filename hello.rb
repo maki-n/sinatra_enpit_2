@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
 require 'sinatra'
 require './maki-n'
-#require './a1702ti'
+require './a1702ti'
 
 template:layout do
 "<html><body><h1>グループ０</h1><%= yield %></body></html>"
