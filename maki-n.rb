@@ -1,18 +1,25 @@
-# -*- coding: utf-8 -*-
 require 'sinatra'
 
-get '/test2/*' do |name|
+get '/test1' do
+  erb %{
+<p><a href="./test1-1">test1-1</a></p>
+<p><a href="./test1-2">test1-2</a></p>
+<p><a href="./test1-3">test1-3</a></p>
+}
+end
+
+get '/test1-2/*' do |name|
   erb %{   hello #{name}. how are you?
 }
 end
   
-get '/test1' do
+get '/test1-1' do
   erb %{
 1+1= <%= 1+1 %><br>
 1+2= <%= 1+2 %><br>
 }
 end
 
-get '/test3' do
-  erb :test3
+get '/test1-3' do
+  erb :test1-3
 end 
