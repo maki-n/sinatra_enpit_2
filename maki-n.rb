@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'sinatra'
 
 get '/test1' do
@@ -9,7 +10,9 @@ get '/test1' do
 end
 
 get '/test1-2/*' do |name|
-  erb %{   hello #{name}. how are you?
+  erb %{
+hello #{name}.<br>
+how are you?
 }
 end
   
@@ -22,5 +25,5 @@ get '/test1-1' do
 end
 
 get '/test1-3' do
-  erb :test2
+  erb :maki_n_erb1
 end 
