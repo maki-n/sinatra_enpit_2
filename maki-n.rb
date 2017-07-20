@@ -7,7 +7,9 @@ get '/test2/*' do |name|
 end
   
 get '/test1' do
-  erb %{'1+1='  <%= 1+1 %>
+  erb %{
+1+1= <%= 1+1 %><br>
+1+2= <%= 1+2 %><br>
 }
 end
 
