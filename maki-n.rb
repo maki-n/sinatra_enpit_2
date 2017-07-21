@@ -18,7 +18,9 @@ erb %{
 end
 
 get '/greeting2' do
-<p><a href="./test1">戻る</a><p>
+erb %{
+<p><a href="./test1">戻る</a></p>
+}
 end
 
 get '/test1-2' do
