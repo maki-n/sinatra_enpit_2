@@ -26,6 +26,7 @@ erb %{
 <option value="En">英語</option>
 <option value="Jp">日本語</option>
 <option value="Ge">ドイツ語</option>
+</select>
 </div>
 <div>
 <input type="submit" value="決定">
