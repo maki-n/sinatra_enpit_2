@@ -21,6 +21,17 @@ erb %{
 <div>性別：
 <input type="radio" name="sex" value="male">男
 <input type="radio" name="sex" value="female">女
+</div>
+<div>言語:<select name="language">
+<option value="En">英語</option>
+<option value="Jp">日本語</option>
+<option value="Ge">ドイツ語</option>
+</div>
+<div>
+<input type="submit" value="決定">
+</div>
+</form>
+}
 end
 
 post '/greeting2' do
