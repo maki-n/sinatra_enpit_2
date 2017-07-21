@@ -1,10 +1,15 @@
 require 'sinatra'
 
+template:layout do 
+"<h3>サブタイトル１</h3><%= yield %>"
+end 
+
 get '/test1' do
 erb %{
 <p><a href="./greeting1">あいさつ</a></p>
 <p><a href="./test1-2">test1-2</a></p>
 <p><a href="./test1-3">test1-3</a></p>
+<p><a href="./hello">戻る</a></p>
 }
 end
   
