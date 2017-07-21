@@ -11,13 +11,14 @@ end
 get '/greeting1' do
 erb %{
 <form action="./greeting2" method="post">
-<div>名前を入力してください<input type="text" name="name" value="太郎"></div>
+<div>emailを入力してください<input type="text" name="email" value=""></div>
 <div><input type="submit" value="決定"></div>
 </form>
 }
 end
 
 get '/greeting2' do
+@email = params[:email]
 erb %{
 <p><a href="./test1">戻る</a><p>
 }
@@ -27,8 +28,8 @@ get '/test1-2' do
 @a = 1
 @b = 2
 erb %{
-<%=a%>+<%=a%>=<%= a+a %><br>
-<%=a%>+<%=b%>=<%= a+b %><br>
+<%= a %> + <%= a %> =<br>
+<%= a %> + <%= b %> =<br>
 }
 end
 
