@@ -4,8 +4,8 @@ get '/test1' do
 erb %{
 <h2>サブタイトル１</h2>
 <p><a href="./greeting1">あいさつ</a></p>
-<p><a href="./calc">計算問題</a></p>
-<p><a href="./test1-3">test1-3</a></p>
+<p><a href="./add">たしざん</a></p>
+<p><a href="./multiple">かけざん</a></p>
 <p><a href="./">戻る</a></p>
 }
 end
@@ -30,7 +30,7 @@ erb %{
 </div>
 <div>
 <input type="submit" value="決定">
-<input tyee="reset" value="リセット">
+<input type="reset" value="リセット">
 </div>
 </form>
 }
@@ -56,7 +56,7 @@ erb %{
 }
 end
 
-get '/calc' do
+get '/add' do
 erb %{
 <h2>サブタイトル１</h2>
 <h3>計算問題</h3>
@@ -69,6 +69,6 @@ erb %{
 }
 end
 
-get '/test1-3' do
+get '/multiple' do
 erb :maki_n_erb1
 end 
