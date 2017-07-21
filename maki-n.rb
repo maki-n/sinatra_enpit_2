@@ -4,7 +4,7 @@ get '/test1' do
 erb %{
 <h2>サブタイトル１</h2>
 <p><a href="./greeting1">あいさつ</a></p>
-<p><a href="./test1-2">test1-2</a></p>
+<p><a href="./calc">計算問題</a></p>
 <p><a href="./test1-3">test1-3</a></p>
 <p><a href="./">戻る</a></p>
 }
@@ -55,11 +55,11 @@ erb %{
 }
 end
 
-get '/test1-2' do
+get '/calc' do
 erb %{
 <h2>サブタイトル１</h2>
-<h3></h3>
-<% for i in 1..3 do %>
+<h3>計算問題</h3>
+<% for i in 0..9 do %>
 <% a=rand(10) %>
 <% b=rand(10) %>
 <p><%= a %> + <%= b %> = <%= a + b %></p>
