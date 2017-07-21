@@ -10,8 +10,8 @@ end
   
 get '/greeting1' do
 erb %{
-<form action=".greeting2" method="post">
-<div>名前<input type="text" name="name" value="名前を入力してください"></div>
+<form action="./greeting2" method="post">
+<div>名前を入力してください<input type="text" name="name" value="太郎"></div>
 <div><input type="submit" value="決定"></div>
 </form>
 }
