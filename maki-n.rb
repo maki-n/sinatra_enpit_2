@@ -63,6 +63,7 @@ erb %{
 <h3></h3>
 <%= @a %> + <%= @b %> = <%= @a + @b %>
 <p><a href="./test1">戻る</a></p>
+}
 end
 
 get '/test1-3' do
