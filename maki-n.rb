@@ -25,9 +25,9 @@ end
 
 get '/test1-2' do
 @a = 1
+@b = 2
 erb %{
-<%= @a %><br>
-<%= @a+@a %><br>
+<%= @a %>+<%= @b %>=<%= @a+@b %><br>
 }
 end
 
