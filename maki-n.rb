@@ -59,7 +59,7 @@ end
 get '/add' do
 erb %{
 <h2>サブタイトル１</h2>
-<h3>計算問題</h3>
+<h3>たしざん</h3>
 <% for i in 0..9 do %>
 <% a=rand(10) %>
 <% b=rand(10) %>
