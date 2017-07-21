@@ -20,7 +20,7 @@ erb %{
 </div>
 <div>性別：
 <input type="radio" name="sex" value="male">男
-<input type="radio" name="
+<input type="radio" name="sex" value="female">女
 end
 
 post '/greeting2' do
