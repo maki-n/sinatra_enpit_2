@@ -26,7 +26,7 @@ end
 get '/test1-2' do
 @a = 1
 erb %{
-<%= a %><br>
+<%= @a %><br>
 }
 end
 
