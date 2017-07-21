@@ -20,7 +20,7 @@ end
 post '/greeting2' do
 @name = params[:name]
 erb %{
-<p>Hello #{name}.<br>How are you?</p>
+<p>Hello <%= name %>.<br>How are you?</p>
 <p><a href="./test1">戻る</a></p>
 }
 end
