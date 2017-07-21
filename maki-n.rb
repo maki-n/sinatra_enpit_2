@@ -18,8 +18,6 @@ erb %{
 end
 
 get '/greeting2' do
-@name = params[:name]
-#<p>Hello #{name}.<br>How are you?</p>
 erb %{
 <p><a href="./test1">戻る</a><p>
 }
