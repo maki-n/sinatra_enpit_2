@@ -22,7 +22,7 @@ erb %{
 <input type="radio" name="sex" value="male">男
 <input type="radio" name="sex" value="female">女
 </div>
-<div>言語:<select name="language">
+<div>言語：<select name="language">
 <option value="En">英語</option>
 <option value="Jp">日本語</option>
 <option value="Ge">ドイツ語</option>
@@ -30,6 +30,7 @@ erb %{
 </div>
 <div>
 <input type="submit" value="決定">
+<input tyee="reset" value="リセット">
 </div>
 </form>
 }
