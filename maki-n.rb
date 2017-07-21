@@ -19,17 +19,13 @@ end
 
 get '/greeting2' do
 @email = params[:email]
-erb %{
 <p><a href="./test1">戻る</a><p>
-}
 end
 
 get '/test1-2' do
 @a = 1
-@b = 2
 erb %{
 <%= a %> + <%= a %> =<br>
-<%= a %> + <%= b %> =<br>
 }
 end
 
