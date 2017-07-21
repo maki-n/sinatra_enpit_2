@@ -49,7 +49,7 @@ erb %{
 <p>こんにちは、<%= @name %>さん。</p>
 <% end %>
 <% if @language == "Ge" %>
-<p>Guten Tag, <% if @sex == male" %>Herr <% end ><% if @sex == "female" %>Frau <% end %><%= @name %>.</p>
+<p>Guten Tag, <% if @sex == "male" %>Herr <% end ><% if @sex == "female" %>Frau <% end %><%= @name %>.</p>
 <% end %>
 <p><a href="./test1">戻る</a></p>
 }
